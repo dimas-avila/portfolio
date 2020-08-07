@@ -280,6 +280,13 @@ main h2 {
     #child-1{
         display: none;
     }
+    .container-column {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    main {
+        padding: 12px;
+    }
 }
 
 @media (max-width: 600px){
@@ -289,6 +296,7 @@ main h2 {
         justify-content: center;
         text-align: center;
     }
+
 
     .profile {
         margin: 0;

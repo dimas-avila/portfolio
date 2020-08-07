@@ -7,6 +7,7 @@ document.querySelector('.dark').addEventListener('click', () => {
     main.style.color = "white";
     document.getElementsByClassName('link')[0].style.color = "white";
     document.getElementsByClassName('link')[1].style.color = "white";
+    document.getElementsByClassName('link')[2].style.color = "white";
 });
 
 document.querySelector('.bright').addEventListener('click', () => {
@@ -18,6 +19,7 @@ document.querySelector('.bright').addEventListener('click', () => {
     main.style.color = "black";
     document.getElementsByClassName('link')[0].style.color = "black";
     document.getElementsByClassName('link')[1].style.color = "black";
+    document.getElementsByClassName('link')[2].style.color = "black";
 });
 
 document.querySelector('.dark').addEventListener('mouseover', () => {
